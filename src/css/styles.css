@@ -26,7 +26,7 @@ nav {
   justify-content: center;
 }
 .flex-row-container > .flex-row-item {
-  flex: 1 1 20%; /*grow | shrink | basis */
+  flex: 1 1 15%; /*grow | shrink | basis */
 }
 
 .flex-row-item {
@@ -35,11 +35,10 @@ nav {
 .center {
   margin: auto;
   background: #f6f6f6;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 .porfolio-img {
-  height: 40rem;
   margin: 2rem;
 }
 /** text tags **/
@@ -54,6 +53,9 @@ p {
 p.description {
   margin-bottom: 4rem;
 }
+.fa-star {
+  font-size: 2rem;
+}
 /** sections **/
 .screen-section {
   min-height: 100vh;
@@ -62,8 +64,17 @@ p.description {
 .preview {
   padding-top: 2rem;
 }
+.flex-row-container > .flex-row-item.skills-flex:last-child {
+  margin-left: 4rem !important;
+  margin-right: 0;
+}
+.flex-row-container > .flex-row-item.skills-flex:first-child {
+  margin-right: 4rem !important;
+  margin-left: 0;
+}
 .flex-row-container > .flex-row-item.skills-flex {
-  margin: 2rem;
+  margin-right: 4rem !important;
+  margin-left: 4rem !important;
 }
 @media only screen and (max-width: 1400px) {
   .content {
