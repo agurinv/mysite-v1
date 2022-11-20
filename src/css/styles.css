@@ -6,3 +6,86 @@
     margin-left: 10rem;
     margin-right: 10rem;
 }
+
+body{
+    position: relative;
+    width: 1445px;
+    height: 4759px;
+}
+
+.home a{
+    position: absolute;
+    left: 17.44%;
+    right: 79.15%;
+    top: 0.69%;
+    bottom: 98.82%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    text-decoration: none;
+}
+
+.about a{
+    position: absolute;
+    left: 31.62%;
+    right: 62.68%;
+    top: 0.69%;
+    bottom: 98.82%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.skills a{
+    position: absolute;
+    left: 48.09%;
+    right: 48.99%;
+    top: 0.69%;
+    bottom: 98.82%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.blog a{
+    position: absolute;
+    left: 61.71%;
+    right: 33.29%;
+    top: 0.67%;
+    bottom: 99.03%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #828282;
+    text-decoration: none;
+}
+
+.contact a{
+    position: absolute;
+    left: 77.48%;
+    right: 17.16%;
+    top: 0.69%;
+    bottom: 98.82%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.line{
+    position: absolute;
+    width: 940.6px;
+    height: 0px;
+    left: 250.69px;
+    top: 87.94px;
+    border: 1px solid #828282;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
