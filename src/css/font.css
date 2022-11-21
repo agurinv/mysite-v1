@@ -11,6 +11,7 @@ p.description {
 }
 a.nav-link {
   padding: 0 !important;
+  font-family: 'Roboto', sans-serif;
 }
 .bx-star {
   font-size: 2rem;
@@ -18,4 +19,24 @@ a.nav-link {
 }
 .bx-star.checked {
   color: #070707;
+}
+
+.ru-lang {
+  text-decoration: none;
+  color: #070707;
+}
+
+.en-lang {
+  text-decoration: none;
+  color: #070707;
+}
+
+.main-photo {
+  border-radius: 15px;
+}
+
+.second-photo {
+  border-radius: 15px;
+  position: relative;
+  left: 16%;
 }

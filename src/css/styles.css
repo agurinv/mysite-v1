@@ -28,7 +28,7 @@ nav {
 .porfolio-img {
   margin: 2rem;
 }
-.flex:last-child() {
+.flex:last-child {
   padding-right: 10rem;
 }
 /** sections **/
