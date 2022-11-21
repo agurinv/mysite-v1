@@ -18,9 +18,7 @@ nav {
   border-bottom: 1px solid #828282;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
-a.nav-link {
-  padding: 0 !important;
-}
+
 .center {
   margin: auto;
   background: #f6f6f6;
@@ -30,24 +28,8 @@ a.nav-link {
 .porfolio-img {
   margin: 2rem;
 }
-/** text tags **/
-h1 {
-  font-family: "Gilroy-Bold";
-  color: #070707;
-  line-height: 59px;
-}
-p {
-  font-family: "Gilroy-Medium";
-}
-p.description {
-  margin-bottom: 4rem;
-}
-.bx-star {
-  font-size: 2rem;
-  color: #0707077a;
-}
-.bx-star.checked {
-  color: #070707;
+.flex:last-child() {
+  padding-right: 10rem;
 }
 /** sections **/
 .screen-section {
