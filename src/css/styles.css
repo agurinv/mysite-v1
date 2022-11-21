@@ -18,20 +18,7 @@ nav {
   border-bottom: 1px solid #828282;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
-.flex-row-container {
-  background: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-.flex-row-container > .flex-row-item {
-  flex: 1 1 15%; /*grow | shrink | basis */
-}
 
-.flex-row-item {
-  background: none;
-}
 .center {
   margin: auto;
   background: #f6f6f6;
@@ -41,20 +28,8 @@ nav {
 .porfolio-img {
   margin: 2rem;
 }
-/** text tags **/
-h1 {
-  font-family: "Gilroy-Bold";
-  color: #070707;
-  line-height: 59px;
-}
-p {
-  font-family: "Gilroy-Medium";
-}
-p.description {
-  margin-bottom: 4rem;
-}
-.fa-star {
-  font-size: 2rem;
+.flex:last-child() {
+  padding-right: 10rem;
 }
 /** sections **/
 .screen-section {
@@ -64,27 +39,13 @@ p.description {
 .preview {
   padding-top: 2rem;
 }
-.flex-row-container > .flex-row-item.skills-flex:last-child {
-  margin-left: 4rem !important;
-  margin-right: 0;
-}
-.flex-row-container > .flex-row-item.skills-flex:first-child {
-  margin-right: 4rem !important;
-  margin-left: 0;
-}
-.flex-row-container > .flex-row-item.skills-flex {
-  margin-right: 4rem !important;
-  margin-left: 4rem !important;
-}
+
 @media only screen and (max-width: 900px) {
   .content {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .flex-row-container > .flex-row-item.skills-flex {
-    flex: 1 100% !important; /*grow | shrink | basis */
-    margin: 0;
-  }
+
   .screen-section-inside {
     margin-top: 1rem;
     margin-bottom: 1rem;

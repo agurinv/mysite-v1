@@ -1,0 +1,21 @@
+h1 {
+  font-family: "Gilroy-Bold";
+  color: #070707;
+  line-height: 59px;
+}
+p {
+  font-family: "Gilroy-Medium";
+}
+p.description {
+  margin-bottom: 4rem;
+}
+a.nav-link {
+  padding: 0 !important;
+}
+.bx-star {
+  font-size: 2rem;
+  color: #0707077a;
+}
+.bx-star.checked {
+  color: #070707;
+}
