@@ -40,3 +40,7 @@ a.nav-link {
   position: relative;
   left: 16%;
 }
+
+.research_button {
+  text-decoration: none;
+}
