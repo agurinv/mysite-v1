@@ -44,3 +44,8 @@ a.nav-link {
 .research_button {
   text-decoration: none;
 }
+
+.empty-box-image {
+  position: relative;
+  top: 35px;
+}
