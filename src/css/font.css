@@ -49,3 +49,7 @@ a.nav-link {
   position: relative;
   top: 35px;
 }
+
+.warning {
+  color: red;
+}
