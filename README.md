@@ -1,6 +1,6 @@
 # <h1 align="center">My personal website | Version 1</h1>
 
-<p align="center">My portfolio, made with ❤️</p>
+<p align="center">Made with ❤️</p>
 <h2 align="center">Project languages:</h2>
  <p align="center">
 <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" >
